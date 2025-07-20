@@ -1,0 +1,45 @@
+/* src/components/FlightInfoPanel.css */
+.info-panel {
+  width: 300px;
+  background-color: #1f2937; /* Dark gray */
+  border-left: 1px solid #4b5563; /* Gray border */
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #374151; /* Slightly lighter gray */
+}
+
+.panel-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.panel-content {
+  padding: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+.panel-content p {
+  margin-bottom: 0.5rem;
+}
+
+.status-en-route {
+  color: #34d399; /* Green color */
+  font-weight: bold;
+}
