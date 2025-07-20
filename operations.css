@@ -1,0 +1,15 @@
+/* src/pages/Operations.css */
+
+.operations-layout {
+  display: flex; /* This is the key property for the side-by-side layout */
+  gap: 1.5rem; /* This adds a nice space between the form and the table */
+  align-items: flex-start; /* Aligns the top of the form and table */
+}
+
+.form-container {
+  flex: 0 0 320px; /* This makes the form a fixed width and prevents it from growing or shrinking */
+}
+
+.table-container {
+  flex: 1; /* This makes the table take up the rest of the available space */
+}

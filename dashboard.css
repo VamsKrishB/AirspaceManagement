@@ -1,0 +1,25 @@
+/* src/pages/Dashboard.css */
+.dashboard-layout {
+  display: flex;
+  height: calc(100vh - 4rem); /* Full viewport height minus some padding */
+}
+
+.map-container {
+  flex: 1; /* Map container takes up all available space */
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.map-wrapper {
+  flex: 1; /* The map itself grows to fill the container */
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: #374151;
+}
